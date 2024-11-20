@@ -1,11 +1,25 @@
-import { DarkThemeToggle } from "flowbite-react";
+import Navigation from "./components/Navigation";
+import AboutUs from "./components/AboutUs";
+import TeamMembers from "./components/TeamMembers";
+import Location from "./components/Location";
+import Foot from "./components/Footer";
+import Posts from "./components/Posts";
 
 function App() {
   return (
-    <main className="flex min-h-screen items-center justify-center gap-2 dark:bg-gray-800">
-      <h1 className="text-2xl dark:text-white">Flowbite React + Vite</h1>
-      <DarkThemeToggle />
-    </main>
+    <div>
+      <Navigation />
+      <img
+        src="hero.png"
+        id="home"
+        className="w-full bg-red-500 pt-12 md:pt-16"
+      />
+      <AboutUs />
+      <TeamMembers />
+      <Posts />
+      <Location />
+      <Foot />
+    </div>
   );
 }
 
