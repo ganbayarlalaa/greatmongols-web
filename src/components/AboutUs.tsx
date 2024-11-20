@@ -5,7 +5,7 @@ const AboutUs = () => {
         <div className="grid w-full grid-cols-1 items-center justify-start gap-8 lg:grid-cols-2">
           <div className="inline-flex w-full flex-col items-center justify-start gap-10 lg:items-start">
             <div className="flex w-full flex-col items-center justify-start gap-4 lg:items-start">
-              <h2 className="font-manrope text-center text-4xl font-bold leading-normal text-gray-900 dark:text-white lg:text-start">
+              <h2 className="text-center text-4xl font-bold leading-normal text-gray-900 dark:text-white lg:text-start">
                 Бидний тухай
               </h2>
               <p className="text-center text-base font-normal leading-relaxed text-gray-500 lg:text-start">
