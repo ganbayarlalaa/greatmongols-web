@@ -10,7 +10,7 @@ function App() {
     <div>
       <Navigation />
       <img
-        src="https://drive.google.com/file/d/1WXsqcOWBmYbGhHxNIxiB4G9AKQoK76bg/view?usp=drive_link"
+        src="https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/hero.png"
         id="home"
         className="w-full  pt-12 md:pt-16"
       />
