@@ -9,12 +9,15 @@ const Posts = () => {
         </h2>
         <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
           {posts.map((post, i) => (
-            <img
-              key={`${i}-key`}
-              className="size-80 rounded-lg object-cover hover:brightness-50"
-              src={post.image}
-              alt=""
-            />
+            <a href={post.link}>
+              {" "}
+              <img
+                key={`${i}-key`}
+                className="size-80 rounded-lg object-cover hover:brightness-50"
+                src={post.image}
+                alt={`post-${i}`}
+              />
+            </a>
           ))}
         </div>
       </div>
