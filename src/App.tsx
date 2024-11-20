@@ -10,9 +10,9 @@ function App() {
     <div>
       <Navigation />
       <img
-        src="hero.png"
+        src="https://drive.google.com/file/d/1WXsqcOWBmYbGhHxNIxiB4G9AKQoK76bg/view?usp=drive_link"
         id="home"
-        className="w-full bg-red-500 pt-12 md:pt-16"
+        className="w-full  pt-12 md:pt-16"
       />
       <AboutUs />
       <TeamMembers />

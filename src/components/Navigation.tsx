@@ -11,7 +11,7 @@ const Navigation = () => {
     <Navbar className="fixed z-50 w-full bg-white dark:bg-gray-800">
       <Navbar.Brand>
         <img
-          src="/logo.png"
+          src="https://drive.google.com/file/d/1uOZQz2jI9c6xWod41g2pnRrJd5RFwHco/view?usp=drive_link"
           className="mr-3 h-12 sm:h-14"
           alt="Flowbite React Logo"
         />
