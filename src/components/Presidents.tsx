@@ -1,37 +1,37 @@
-import { teamMembers } from "../data/teamMembers";
+import { presidents } from "../data/presidents";
 
-const TeamMembers = () => {
+const Presidents = () => {
   return (
-    <section id="members" className="bg-white dark:bg-gray-900">
+    <section id="presidents" className="bg-white dark:bg-gray-900">
       <div className="mx-auto max-w-screen-xl px-4 py-8 text-center lg:px-6 lg:py-16">
         <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
           <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-            Гишүүд
+            Ерөнхийлөгч
           </h2>
           <p className="font-light text-gray-500 dark:text-gray-400 sm:text-xl">
-            Манай клубын гишүүдтэй танилцаарай
+            Манай клубын үе үеийн ерөнхийлөгч нар
           </p>
         </div>
         <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-16">
-          {teamMembers.map((teamMember, i) => (
+          {presidents.map((president, i) => (
             <div
               className="text-center text-gray-500 dark:text-gray-400"
-              key={`${teamMember}-${i}`}
+              key={`${president}-${i}`}
             >
               <img
                 className="mx-auto mb-4 size-36 rounded-full"
-                src={teamMember.image}
-                alt={teamMember.name}
+                src={president.image}
+                alt={president.name}
               />
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                <a href="#">{teamMember.name}</a>
+                <a href="#">{president.name}</a>
               </h3>
-              <p>{teamMember.position}</p>
+              <p>{president.position}</p>
               <ul className="mt-4 flex justify-center space-x-4">
                 {/* facebook */}
                 <li>
                   <a
-                    href={teamMember.facebook}
+                    href={president.facebook}
                     className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                   >
                     <svg
@@ -51,7 +51,7 @@ const TeamMembers = () => {
                 {/* twitter */}
                 <li>
                   <a
-                    href={teamMember.twitter}
+                    href={president.twitter}
                     className="text-[#00acee] hover:text-gray-900 dark:hover:text-white"
                   >
                     <svg
@@ -67,7 +67,7 @@ const TeamMembers = () => {
                 {/* instagram */}
                 <li>
                   <a
-                    href={teamMember.instagram}
+                    href={president.instagram}
                     className="text-[#ea4c89] hover:text-gray-900 dark:hover:text-white"
                   >
                     <svg
@@ -89,4 +89,4 @@ const TeamMembers = () => {
   );
 };
 
-export default TeamMembers;
+export default Presidents;

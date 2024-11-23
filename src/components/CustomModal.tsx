@@ -19,7 +19,7 @@ const CustomModal = ({
   return (
     <Modal show={show} onClose={onClose}>
       {header && <Modal.Header>{header}</Modal.Header>}
-      <Modal.Body>{body}</Modal.Body>
+      <Modal.Body className="p-0">{body}</Modal.Body>
       {footer && <Modal.Footer>{footer}</Modal.Footer>}
     </Modal>
   );

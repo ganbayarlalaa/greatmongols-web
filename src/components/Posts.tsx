@@ -25,8 +25,8 @@ const Posts = () => {
             </p>
           </div>
           <div className="grid gap-8 lg:grid-cols-2">
-            {data.map((d) => (
-              <a href={d.link} target="_">
+            {data.map((d, i) => (
+              <a key={`article-${i}`} href={d.link} target="_">
                 <article className="rounded-lg border border-gray-200 bg-white p-6 shadow-md dark:border-gray-700 dark:bg-gray-800">
                   <div className="mb-5 flex items-center justify-between text-gray-500">
                     <span className="bg-primary-100 text-primary-800 dark:bg-primary-200 dark:text-primary-800 inline-flex items-center rounded px-2.5 py-0.5 text-xs font-medium">

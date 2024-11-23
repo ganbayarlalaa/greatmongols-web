@@ -1,4 +1,4 @@
-export const teamMembers = [
+export const presidents = [
   {
     image:
       "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",

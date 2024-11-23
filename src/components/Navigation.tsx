@@ -1,9 +1,9 @@
-import { Navbar } from "flowbite-react";
+import { DarkThemeToggle, Navbar } from "flowbite-react";
 const Navigation = () => {
   const navs = [
     { name: "Нүүр хуудас", anchor: "#home" },
     { name: "Бидний тухай", anchor: "#about" },
-    { name: "Гишүүд", anchor: "#members" },
+    { name: "Ерөнхийлөгч", anchor: "#presidents" },
     { name: "Мэдээ мэдээлэл", anchor: "#posts" },
     { name: "Хаяг байршил", anchor: "#location" },
   ];
@@ -27,6 +27,7 @@ const Navigation = () => {
           </Navbar.Link>
         ))}{" "}
       </Navbar.Collapse>
+      <DarkThemeToggle />
     </Navbar>
   );
 };

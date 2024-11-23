@@ -1,6 +1,6 @@
 import Navigation from "./components/Navigation";
 import AboutUs from "./components/AboutUs";
-import TeamMembers from "./components/TeamMembers";
+import Presidents from "./components/Presidents";
 import Location from "./components/Location";
 import Foot from "./components/Footer";
 import Posts from "./components/Posts";
@@ -15,7 +15,7 @@ function App() {
         className="w-full  pt-12 md:pt-16"
       />
       <AboutUs />
-      <TeamMembers />
+      <Presidents />
       <Posts />
       <Location />
       <Foot />
