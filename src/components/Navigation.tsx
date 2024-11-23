@@ -13,7 +13,7 @@ const Navigation = () => {
         <img
           src="https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/logo.png"
           className="mr-3 h-12 sm:h-14"
-          alt="Flowbite React Logo"
+          alt="logo"
         />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
           GREAT MONGOLS
