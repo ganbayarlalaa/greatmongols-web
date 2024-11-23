@@ -14,11 +14,11 @@ const Posts = () => {
   }, []);
   return (
     <>
-      <section className="bg-white dark:bg-gray-900">
+      <section id="posts" className="bg-white dark:bg-gray-900">
         <div className="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16">
           <div className="mx-auto mb-8 max-w-screen-sm text-center lg:mb-16">
             <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white lg:text-4xl">
-              Нийтлэл
+              Нийтлэлүүд
             </h2>
             <p className="font-light text-gray-500 dark:text-gray-400 sm:text-xl">
               Toastmasters International сайтын албан ёсны нийтлэлүүд

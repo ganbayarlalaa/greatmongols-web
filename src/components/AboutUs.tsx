@@ -9,7 +9,7 @@ const AboutUs = () => {
   };
 
   return (
-    <section>
+    <section id="about">
       <section className="relative py-24 dark:bg-gray-800">
         <div className="mx-auto w-full max-w-7xl px-4 dark:bg-gray-800 md:px-5 lg:px-5">
           <div className="grid w-full grid-cols-1 items-center justify-start gap-12 lg:grid-cols-2">
@@ -61,7 +61,7 @@ const AboutUs = () => {
         </div>
       </section>
 
-      <section id="about" className="relative py-24 dark:bg-gray-800">
+      <section className="relative py-24 dark:bg-gray-800">
         <div className="mx-auto w-full max-w-7xl px-4 dark:bg-gray-800 md:px-5 lg:px-5">
           <div className="grid w-full grid-cols-1 items-center justify-start gap-8 lg:grid-cols-2">
             <div className="inline-flex w-full flex-col items-center justify-start gap-10 lg:items-start">
