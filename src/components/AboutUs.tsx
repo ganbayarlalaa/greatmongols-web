@@ -120,7 +120,7 @@ const AboutUs = () => {
             </div>
             <img
               className="rounded-lg"
-              src="https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/payment.jpg"
+              src="https://ganbayarlalaa.github.io/greatmongols-web/payment.jpg"
             />
           </div>
         }
