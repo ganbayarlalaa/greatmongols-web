@@ -13,20 +13,11 @@ const AboutUs = () => {
       <section className="relative py-24 dark:bg-gray-800">
         <div className="mx-auto w-full max-w-7xl px-4 md:px-5 lg:px-5 dark:bg-gray-800">
           <div className="grid w-full grid-cols-1 items-center justify-start gap-12 lg:grid-cols-2">
-            <div className="order-last grid w-full grid-cols-1 items-start justify-center gap-6 sm:grid-cols-2 lg:order-first">
-              <div className="flex items-start justify-start gap-2.5 pt-24 sm:justify-end lg:justify-center">
-                <img
-                  className=" rounded-xl object-cover"
-                  src="https://pagedone.io/asset/uploads/1717741205.png"
-                  alt="about Us image"
-                />
-              </div>
-              <img
-                className="ml-auto rounded-xl object-cover sm:ml-0"
-                src="https://pagedone.io/asset/uploads/1717741215.png"
-                alt="about Us image"
-              />
-            </div>
+          <img
+              className="mx-auto h-full rounded-3xl object-cover lg:mx-0"
+              src="https://ganbayarlalaa.github.io/greatmongols-web/toastmasters.jpg"
+              alt="about Us image"
+            />
             <div className="inline-flex w-full flex-col items-center justify-center gap-10 lg:items-start">
               <div className="flex w-full flex-col items-start justify-center gap-8">
                 <div className="flex w-full flex-col items-center justify-start gap-3 lg:items-start">

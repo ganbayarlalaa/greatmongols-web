@@ -10,7 +10,7 @@ interface presidentType {
 export const presidents:presidentType[] = [
   {
     image:
-      "https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/bira.jpg",
+      "https://ganbayarlalaa.github.io/greatmongols-web/bira.jpg",
     name: "Баяртулга",
     position: "2024 оны ерөнхийлөгч",
     facebook: "https://www.facebook.com/eng.bira",
@@ -18,20 +18,20 @@ export const presidents:presidentType[] = [
   },
   {
     image:
-      "https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/anu.jpg",
+      "https://ganbayarlalaa.github.io/greatmongols-web/anu.jpg",
     name: "Ану",
     position: "2023 оны ерөнхийлөгч",
     facebook: "https://www.facebook.com/anu.naran",
   },
   {
     image:
-      "https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/tseesuren.jpg",
+      "https://ganbayarlalaa.github.io/greatmongols-web/tseesuren.jpg",
     name: "Цээсүрэн",
     position: "2022 оны ерөнхийлөгч",
   },
   {
     image:
-      "https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/bira.jpg",
+      "https://ganbayarlalaa.github.io/greatmongols-web/bira.jpg",
     name: "Баяртулга",
     position: "2022 оны ерөнхийлөгч",
     facebook: "https://www.facebook.com/eng.bira",
@@ -40,7 +40,7 @@ export const presidents:presidentType[] = [
   },
   {
     image:
-      "https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/arvijih.jpg",
+      "https://ganbayarlalaa.github.io/greatmongols-web/arvijih.jpg",
     name: "Арвижих",
     position: "2021 оны ерөнхийлөгч",
     facebook: "https://www.facebook.com/arvijikh.ari",
@@ -53,14 +53,14 @@ export const presidents:presidentType[] = [
   },
   {
     image:
-      "https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/gandolgor.jpg",
+      "https://ganbayarlalaa.github.io/greatmongols-web/gandolgor.jpg",
     name: "Гандолгор",
     position: "2019 оны ерөнхийлөгч",
     facebook: "https://www.facebook.com/gandolgor.doogii"
   },
   {
     image:
-      "https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/uyanga.jpg",
+      "https://ganbayarlalaa.github.io/greatmongols-web/uyanga.jpg",
     name: "Уянга",
     position: "2018 оны ерөнхийлөгч",
     facebook: "https://www.facebook.com/uyanga.lhagva"
@@ -73,7 +73,7 @@ export const presidents:presidentType[] = [
   },
   {
     image:
-      "https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/nomi.jpg",
+      "https://ganbayarlalaa.github.io/greatmongols-web/nomi.jpg",
     name: "Номинтуул",
     position: "2016 оны ерөнхийлөгч",
     facebook: "https://www.facebook.com/gs.nemo",

@@ -10,7 +10,7 @@ function App() {
     <div>
       <Navigation />
       <img
-        src="https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/hero.png"
+        src="https://ganbayarlalaa.github.io/greatmongols-web/hero.png"
         id="home"
         className="w-full  pt-12 md:pt-16"
       />
