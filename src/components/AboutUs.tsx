@@ -98,7 +98,7 @@ const AboutUs = () => {
             </div>
             <img
               className="mx-auto h-full rounded-3xl object-cover lg:mx-0"
-              src="https://pagedone.io/asset/uploads/1717751272.png"
+              src="https://ganbayarlalaa.github.io/greatmongols-web/about-us.jpg"
               alt="about Us image"
             />
           </div>

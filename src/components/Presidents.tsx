@@ -20,7 +20,7 @@ const Presidents = () => {
             >
               <img
                 className="mx-auto mb-4 size-36 rounded-full object-cover"
-                src={president.image}
+                src={president.image || "https://ganbayarlalaa.github.io/greatmongols-web/user.jpg"}
                 alt={president.name}
               />
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -52,7 +52,6 @@ const Presidents = () => {
                 {/* twitter */}
                 <li>
                   <a
-                    
                     href={president.twitter}
                     target="_"
                     className="text-[#00acee] hover:text-gray-900 dark:hover:text-white"

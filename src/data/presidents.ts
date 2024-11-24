@@ -1,5 +1,5 @@
 interface presidentType {
-  image: string,
+  image?: string,
   name: string,
   position: string,
   facebook?: string,
@@ -46,8 +46,7 @@ export const presidents:presidentType[] = [
     facebook: "https://www.facebook.com/arvijikh.ari",
   },
   {
-    image:
-      "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png",
+
     name: "Одсүрэн",
     position: "2020 оны ерөнхийлөгч",
     facebook: "https://www.facebook.com/odsuren.myagmarsuren"
@@ -67,8 +66,7 @@ export const presidents:presidentType[] = [
     facebook: "https://www.facebook.com/uyanga.lhagva"
   },
   {
-    image:
-      "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png",
+  
     name: "Долгорсүрэн",
     position: "2017 оны ерөнхийлөгч",
     facebook: "https://www.facebook.com/Ts.Dolgorsuren"
