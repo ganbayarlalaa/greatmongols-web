@@ -11,7 +11,7 @@ const AboutUs = () => {
   return (
     <section id="about">
       <section className="relative py-24 dark:bg-gray-800">
-        <div className="mx-auto w-full max-w-7xl px-4 dark:bg-gray-800 md:px-5 lg:px-5">
+        <div className="mx-auto w-full max-w-7xl px-4 md:px-5 lg:px-5 dark:bg-gray-800">
           <div className="grid w-full grid-cols-1 items-center justify-start gap-12 lg:grid-cols-2">
             <div className="order-last grid w-full grid-cols-1 items-start justify-center gap-6 sm:grid-cols-2 lg:order-first">
               <div className="flex items-start justify-start gap-2.5 pt-24 sm:justify-end lg:justify-center">
@@ -30,7 +30,7 @@ const AboutUs = () => {
             <div className="inline-flex w-full flex-col items-center justify-center gap-10 lg:items-start">
               <div className="flex w-full flex-col items-start justify-center gap-8">
                 <div className="flex w-full flex-col items-center justify-start gap-3 lg:items-start">
-                  <h2 className=" text-center text-4xl font-bold leading-normal text-gray-900 dark:text-white lg:text-start ">
+                  <h2 className=" text-center text-4xl font-bold leading-normal text-gray-900 lg:text-start dark:text-white ">
                     Бидний тухай
                   </h2>
                   <p className="text-center text-base font-normal leading-relaxed text-gray-500 lg:text-start">
@@ -64,11 +64,11 @@ const AboutUs = () => {
       </section>
 
       <section className="relative py-24 dark:bg-gray-800">
-        <div className="mx-auto w-full max-w-7xl px-4 dark:bg-gray-800 md:px-5 lg:px-5">
+        <div className="mx-auto w-full max-w-7xl px-4 md:px-5 lg:px-5 dark:bg-gray-800">
           <div className="grid w-full grid-cols-1 items-center justify-start gap-8 lg:grid-cols-2">
             <div className="inline-flex w-full flex-col items-center justify-start gap-10 lg:items-start">
               <div className="flex w-full flex-col items-center justify-start gap-4 lg:items-start">
-                <h2 className="text-center text-4xl font-bold leading-normal text-gray-900 dark:text-white lg:text-start">
+                <h2 className="text-center text-4xl font-bold leading-normal text-gray-900 lg:text-start dark:text-white">
                   Бидний тухай
                 </h2>
                 <p className="text-center text-base font-normal leading-relaxed text-gray-500 lg:text-start">

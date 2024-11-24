@@ -8,7 +8,7 @@ const Presidents = () => {
           <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
             Ерөнхийлөгч
           </h2>
-          <p className="font-light text-gray-500 dark:text-gray-400 sm:text-xl">
+          <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
             Манай клубын үе үеийн ерөнхийлөгч нар
           </p>
         </div>
