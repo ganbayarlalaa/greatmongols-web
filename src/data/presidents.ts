@@ -75,7 +75,7 @@ export const presidents:presidentType[] = [
   },
   {
     image:
-      "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png",
+      "https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/nomi.jpg",
     name: "Номинтуул",
     position: "2016 оны ерөнхийлөгч",
     facebook: "https://www.facebook.com/gs.nemo",
