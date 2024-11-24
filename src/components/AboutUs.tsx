@@ -9,11 +9,14 @@ const AboutUs = () => {
   };
 
   return (
-    <section id="about">
-      <section className="relative py-24 dark:bg-gray-800">
-        <div className="mx-auto w-full max-w-7xl px-4 md:px-5 lg:px-5 dark:bg-gray-800">
+    <section id="about" className="py-16 dark:bg-gray-800">
+      <h2 className="text-center text-3xl font-extrabold tracking-tight text-gray-900 lg:text-4xl dark:text-white ">
+        Бидний тухай
+      </h2>
+      <section className="relative py-12 ">
+        <div className="mx-auto w-full max-w-7xl px-4 md:px-5 lg:px-5 ">
           <div className="grid w-full grid-cols-1 items-center justify-start gap-12 lg:grid-cols-2">
-          <img
+            <img
               className="mx-auto h-full rounded-3xl object-cover lg:mx-0"
               src="https://ganbayarlalaa.github.io/greatmongols-web/toastmasters.jpg"
               alt="about Us image"
@@ -21,22 +24,24 @@ const AboutUs = () => {
             <div className="inline-flex w-full flex-col items-center justify-center gap-10 lg:items-start">
               <div className="flex w-full flex-col items-start justify-center gap-8">
                 <div className="flex w-full flex-col items-center justify-start gap-3 lg:items-start">
-                  <h2 className=" text-center text-4xl font-bold leading-normal text-gray-900 lg:text-start dark:text-white ">
+                  {/* <h2 className=" text-center text-4xl font-bold leading-normal text-gray-900 lg:text-start dark:text-white ">
                     Бидний тухай
-                  </h2>
+                  </h2> */}
                   <p className="text-center text-base font-normal leading-relaxed text-gray-500 lg:text-start">
-                    Great Mongols Toastmasters Club нь Олон улсын
-                    Toastmasters International байгууллагын Монгол Улс дахь
-                    салбар гишүүн клуб бөгөөд олон нийтэд нээлттэй, Монгол дахь
-                    хамгийн том клубын нэг гэдгээрээ онцлог юм. Мөн долоо хоног
-                    бүрийн хурлаа Мягмар гарагт тогтмол Англи хэлээр зохион
-                    байгуулдаг бөгөөд "Toastmasters Pathways Learning
-                    Experience" хэмээх боловсролын хөтөлбөрийн дагуу илтгэх ур
-                    чавдар, харилцааны ур чадвар болон манлайллын ур чадваруудыг
-                    хөгжүүлэхээс гадна Англи хэлээ сайжруулах давуу талтай.
-                    
+                    Great Mongols Toastmasters Club нь Олон улсын Toastmasters
+                    International байгууллагын Монгол Улс дахь салбар гишүүн
+                    клуб бөгөөд олон нийтэд нээлттэй, Монгол дахь хамгийн том
+                    клубын нэг гэдгээрээ онцлог юм. Мөн долоо хоног бүрийн
+                    хурлаа Мягмар гарагт тогтмол Англи хэлээр зохион байгуулдаг
+                    бөгөөд "Toastmasters Pathways Learning Experience" хэмээх
+                    боловсролын хөтөлбөрийн дагуу илтгэх ур чавдар, харилцааны
+                    ур чадвар болон манлайллын ур чадваруудыг хөгжүүлэхээс гадна
+                    Англи хэлээ сайжруулах давуу талтай.
                   </p>
-                  <p className="text-center text-base font-normal leading-relaxed text-gray-500 lg:text-start">✅ Түүнчлэн хуралд зочноор оролцож манай үйл ажиллагаатай танилцах бүрэн боломжтой</p>
+                  <p className="text-center text-base font-normal leading-relaxed text-gray-500 lg:text-start">
+                    ✅ Түүнчлэн хуралд зочноор оролцож манай үйл ажиллагаатай
+                    танилцах бүрэн боломжтой
+                  </p>
                 </div>
                 <div className="inline-flex w-full items-center justify-center gap-5 sm:gap-10 lg:justify-start">
                   {/* facebook */}
@@ -54,14 +59,14 @@ const AboutUs = () => {
         </div>
       </section>
 
-      <section className="relative py-24 dark:bg-gray-800">
+      <section className="relative py-12">
         <div className="mx-auto w-full max-w-7xl px-4 md:px-5 lg:px-5 dark:bg-gray-800">
           <div className="grid w-full grid-cols-1 items-center justify-start gap-8 lg:grid-cols-2">
             <div className="inline-flex w-full flex-col items-center justify-start gap-10 lg:items-start">
               <div className="flex w-full flex-col items-center justify-start gap-4 lg:items-start">
-                <h2 className="text-center text-4xl font-bold leading-normal text-gray-900 lg:text-start dark:text-white">
+                {/* <h2 className="text-center text-4xl font-bold leading-normal text-gray-900 lg:text-start dark:text-white">
                   Бидний тухай
-                </h2>
+                </h2> */}
                 <p className="text-center text-base font-normal leading-relaxed text-gray-500 lg:text-start">
                   Great Mongols Toastmasters Club нь Олон улсын Toastmasters
                   International байгууллагын Монгол Улс дахь салбар гишүүн клуб
