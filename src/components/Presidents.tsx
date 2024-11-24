@@ -32,6 +32,7 @@ const Presidents = () => {
                 <li>
                   <a
                     href={president.facebook}
+                    target="_"
                     className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                   >
                     <svg
@@ -51,7 +52,9 @@ const Presidents = () => {
                 {/* twitter */}
                 <li>
                   <a
+                    
                     href={president.twitter}
+                    target="_"
                     className="text-[#00acee] hover:text-gray-900 dark:hover:text-white"
                   >
                     <svg
@@ -68,6 +71,7 @@ const Presidents = () => {
                 <li>
                   <a
                     href={president.instagram}
+                    target="_"
                     className="text-[#ea4c89] hover:text-gray-900 dark:hover:text-white"
                   >
                     <svg
