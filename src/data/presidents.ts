@@ -10,7 +10,7 @@ interface presidentType {
 export const presidents:presidentType[] = [
   {
     image:
-      "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
+      "https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/bira.jpg",
     name: "Баяртулга",
     position: "2024 оны ерөнхийлөгч",
     facebook: "https://www.facebook.com/eng.bira",
@@ -18,20 +18,20 @@ export const presidents:presidentType[] = [
   },
   {
     image:
-      "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/helene-engels.png",
+      "https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/anu.jpg",
     name: "Ану",
     position: "2023 оны ерөнхийлөгч",
     facebook: "https://www.facebook.com/anu.naran",
   },
   {
     image:
-      "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png",
+      "https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/tseesuren.jpg",
     name: "Цээсүрэн",
     position: "2022 оны ерөнхийлөгч",
   },
   {
     image:
-      "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png",
+      "https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/bira.jpg",
     name: "Баяртулга",
     position: "2022 оны ерөнхийлөгч",
     facebook: "https://www.facebook.com/eng.bira",
@@ -40,7 +40,7 @@ export const presidents:presidentType[] = [
   },
   {
     image:
-      "arvijih.jpg",
+      "https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/arvijih.jpg",
     name: "Арвижих",
     position: "2021 оны ерөнхийлөгч",
     facebook: "https://www.facebook.com/arvijikh.ari",
@@ -54,14 +54,14 @@ export const presidents:presidentType[] = [
   },
   {
     image:
-      "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png",
+      "https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/gandolgor.jpg",
     name: "Гандолгор",
     position: "2019 оны ерөнхийлөгч",
     facebook: "https://www.facebook.com/gandolgor.doogii"
   },
   {
     image:
-      "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png",
+      "https://raw.githubusercontent.com/ganbayarlalaa/greatmongols-web/refs/heads/main/public/uyanga.jpg",
     name: "Уянга",
     position: "2018 оны ерөнхийлөгч",
     facebook: "https://www.facebook.com/uyanga.lhagva"

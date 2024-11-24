@@ -19,7 +19,7 @@ const Presidents = () => {
               key={`${president}-${i}`}
             >
               <img
-                className="mx-auto mb-4 size-36 rounded-full"
+                className="mx-auto mb-4 size-36 rounded-full object-cover"
                 src={president.image}
                 alt={president.name}
               />
