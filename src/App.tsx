@@ -13,6 +13,7 @@ function App() {
         src="https://ganbayarlalaa.github.io/greatmongols-web/hero.png"
         id="home"
         className="w-full pt-12 md:pt-16"
+        alt="hero-image"
       />
       <AboutUs />
       <Presidents />
